@@ -24,7 +24,7 @@ const SuggestionSchema = new mongoose.Schema({
     //     type: Number,
     //     require: true
     // },
-    upvotes: Number
+    upvotes: Array
 
 });
 
