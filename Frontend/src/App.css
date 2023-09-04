@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  /* min-width: 23.4375rem; */
+  width: clamp(23.438rem,90%,90rem);
+  display: flex;
+  justify-content: center;
+  /* max-width: 90rem; */
+  
+}
+
+

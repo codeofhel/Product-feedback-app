@@ -1,0 +1,47 @@
+.commentBox {
+    display: flex;
+    flex-direction: column;
+    font-size: clamp(0.8125rem, 3vw, 0.9375rem);
+}
+
+.childrenReply {
+    border-left: 1px solid lightgrey;
+}
+
+.commentHeader {
+    display: flex;
+    margin-block: 1rem;
+    justify-content: space-between;
+}
+
+.boxUser>* {
+    display: inline-block;
+}
+
+.commentHeader img {
+    border-radius: 2.5rem;
+    margin-right: 1rem;
+}
+
+.reply {
+    color: var(--clr-secondary);
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: var(--fw-semibold);
+}
+
+.commentText {
+    font-size: clamp(0.8125rem, 3vw, 0.9375rem);
+    padding-bottom: 1rem;
+}
+
+.commentName,
+.commentAlias {
+    display: block;
+}
+
+@media only screen and (min-width: 90rem) {
+    .commentText {
+        padding-left: 3.5rem;
+    }
+}

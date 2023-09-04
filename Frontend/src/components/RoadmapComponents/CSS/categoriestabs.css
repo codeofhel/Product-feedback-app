@@ -1,0 +1,19 @@
+.containerTabs {
+    display: flex;
+}
+
+.itemTab {
+    text-align: center;
+    padding-block: 1.25rem;
+    flex-grow: 1;
+    font-size: 0.8125rem;
+    font-weight: var(--fw-bold);
+    opacity: 0.4;
+}
+
+.itemTab[selected] {
+    border-bottom: 5px;
+    border-color: var(--live);
+    font-weight: var(--fw-bold);
+    opacity:1;
+}

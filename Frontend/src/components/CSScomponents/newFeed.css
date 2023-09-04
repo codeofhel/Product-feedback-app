@@ -1,0 +1,70 @@
+.containerBtn {
+    /* width: clamp(20.5rem, 100%, 33.75rem); */
+    text-align: start;
+    margin-block: 1.5rem;
+    margin-inline: 1.5rem;
+}
+
+.newFeedBox {
+    padding-top: 2.75rem;
+} 
+
+.iconNewFeed{
+    position: absolute;
+    top: -20px;
+}
+
+.newFeedItem {
+    margin-block: 1.5rem;
+}
+
+.newFeedItem label {
+    color: var(--clr-darkblue);
+    font-weight: var(--fw-bold);
+}
+
+.newFeedItem p {
+    color: var(--clr-lightblue);
+    margin-bottom: 1rem;
+}
+
+.newFeedItem select {
+    background-color: var(--clr-bg);
+    border-radius: 0.3125rem;
+    border: 0;
+    width: 100%;
+    height: 3rem;
+}
+
+.newFeedItem textarea {
+    background-color: var(--clr-bg);
+    border-radius: 0.3125rem;
+    border: 0;
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+.boxBtn {
+    border-radius: 0.625rem;
+    width: 100%;
+    height: 2.5rem;
+    border: 0;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.addFeed {
+    background-color: var(--clr-primary);
+}
+
+.cancelbtn {
+    background-color: var(--clr-darkblue);
+}
+
+.deletebtn {
+    background-color: var(--clr-error);
+}
+
+.editFeedback{
+    display: none;
+}

@@ -1,0 +1,50 @@
+.containerBtn {
+    display: flex;
+}
+
+.editFeed {
+    background-color: var(--clr-secondary);
+}
+
+.postComment{
+    background-color: var(--clr-primary);
+}
+
+.addComment h3 {
+    margin-bottom: 1.5rem;
+}
+
+.containerSubmit {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 1rem;
+}
+
+.containerSubmit p{
+    margin-block: auto;
+    
+}
+
+.mainComment{
+    padding-left:0.5rem;
+    padding-block:1rem;
+    border-bottom: 1px solid lightgrey;
+}
+
+/* .mainComment>.commentBox{
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid lightgrey;
+} */
+
+/* .separator{
+    background-color: lightgray;
+
+
+} */
+
+
+.childrenReply{
+    padding-left: 2rem;
+}
+

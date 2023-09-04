@@ -1,0 +1,30 @@
+.commentContainer {
+    padding-block: 1rem;
+}
+
+.commentContainer form {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.commentContainer #comment {
+    border-radius: 0.3125rem;
+    border: 1px solid var(--clr-secondary);
+    background-color: var(--clr-bg);
+    padding: 1rem;
+}
+
+.commentContainer #comment:focus {
+    outline: none;
+    border: 1px solid var(--clr-secondary);
+}
+
+.commentContainer button {
+    width: 7.3125rem;
+    height: 2.75rem;
+    border-radius: 0.625rem;
+    border: 0;
+    background-color: var(--clr-primary);
+    color: white;
+}

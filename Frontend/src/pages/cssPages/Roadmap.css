@@ -1,0 +1,45 @@
+.itemFeed[data-roadmap=true] {
+    max-width: 21.875rem;
+}
+
+.itemFeed[data-status='planned'] {
+    border-top: 0.4rem;
+    border-top-style: solid;
+    border-color: var(--planned);
+}
+
+.itemFeed[data-status='inprogress'] {
+    border-top: 0.4rem;
+    border-top-style: solid;
+    border-color: var(--in-progress);
+}
+
+.itemFeed[data-status='live'] {
+    border-top: 0.4rem;
+    border-top-style: solid;
+    border-color: var(--live);
+}
+
+.containerRoadmap {
+    display: flex;
+    flex-direction: column;
+}
+
+.postCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.postCol:first-child {
+    margin-right: 1rem;
+}
+
+.postCol:last-child {
+    margin-left: 1rem;
+}
+
+@media screen and (min-width:90rem) {
+    .containerRoadmap {
+        flex-direction: row;
+    }
+}
